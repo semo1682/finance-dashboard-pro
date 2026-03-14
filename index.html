@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Finance Dashboard Pro | Eslam Mesalam</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="dashboard-layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-logo">
+        <span class="logo-dot"></span>
+        <h2>FinPro</h2>
+      </div>
+
+      <nav class="sidebar-nav">
+        <a href="#" class="nav-item active">Dashboard</a>
+        <a href="#" class="nav-item">Analytics</a>
+        <a href="#" class="nav-item">Transactions</a>
+        <a href="#" class="nav-item">Budgets</a>
+        <a href="#" class="nav-item">Reports</a>
+        <a href="#" class="nav-item">Settings</a>
+      </nav>
+
+      <div class="sidebar-card">
+        <p>Upgrade your workspace for deeper financial insights.</p>
+        <button>Upgrade Plan</button>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div class="topbar-left">
+          <button class="menu-btn" id="menuBtn">☰</button>
+          <div>
+            <p class="section-label">Overview</p>
+            <h1>Finance Dashboard</h1>
+          </div>
+        </div>
+
+        <div class="topbar-right">
+          <input type="text" placeholder="Search..." class="search-box" />
+          <div class="user-box">
+            <div class="avatar">EM</div>
+            <div>
+              <strong>Eslam Mesalam</strong>
+              <span>Front-End Developer</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="stats-grid">
+        <div class="stat-card">
+          <span>Total Revenue</span>
+          <h2>$24,580</h2>
+          <p class="positive">+12.5% this month</p>
+        </div>
+
+        <div class="stat-card">
+          <span>Expenses</span>
+          <h2>$8,420</h2>
+          <p class="negative">-3.2% this month</p>
+        </div>
+
+        <div class="stat-card">
+          <span>Net Profit</span>
+          <h2>$16,160</h2>
+          <p class="positive">+8.1% this month</p>
+        </div>
+
+        <div class="stat-card">
+          <span>Active Clients</span>
+          <h2>1,248</h2>
+          <p class="positive">+5.4% growth</p>
+        </div>
+      </section>
+
+      <section class="content-grid">
+        <div class="panel chart-panel">
+          <div class="panel-head">
+            <div>
+              <p class="panel-label">Performance</p>
+              <h3>Revenue Analytics</h3>
+            </div>
+
+            <div class="chart-filters">
+              <button class="chart-btn active">Weekly</button>
+              <button class="chart-btn">Monthly</button>
+              <button class="chart-btn">Yearly</button>
+            </div>
+          </div>
+
+          <div class="chart-area">
+            <div class="chart-bars">
+              <div class="bar-group">
+                <div class="bar" style="height: 55%;"></div>
+                <span>Mon</span>
+              </div>
+              <div class="bar-group">
+                <div class="bar" style="height: 72%;"></div>
+                <span>Tue</span>
+              </div>
+              <div class="bar-group">
+                <div class="bar" style="height: 48%;"></div>
+                <span>Wed</span>
+              </div>
+              <div class="bar-group">
+                <div class="bar" style="height: 85%;"></div>
+                <span>Thu</span>
+              </div>
+              <div class="bar-group">
+                <div class="bar" style="height: 67%;"></div>
+                <span>Fri</span>
+              </div>
+              <div class="bar-group">
+                <div class="bar" style="height: 92%;"></div>
+                <span>Sat</span>
+              </div>
+              <div class="bar-group">
+                <div class="bar" style="height: 74%;"></div>
+                <span>Sun</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel progress-panel">
+          <div class="panel-head simple">
+            <div>
+              <p class="panel-label">Target</p>
+              <h3>Budget Progress</h3>
+            </div>
+          </div>
+
+          <div class="progress-item">
+            <div class="progress-text">
+              <span>Marketing</span>
+              <strong>78%</strong>
+            </div>
+            <div class="progress-bar"><div style="width: 78%;"></div></div>
+          </div>
+
+          <div class="progress-item">
+            <div class="progress-text">
+              <span>Operations</span>
+              <strong>61%</strong>
+            </div>
+            <div class="progress-bar"><div style="width: 61%;"></div></div>
+          </div>
+
+          <div class="progress-item">
+            <div class="progress-text">
+              <span>Product</span>
+              <strong>84%</strong>
+            </div>
+            <div class="progress-bar"><div style="width: 84%;"></div></div>
+          </div>
+
+          <div class="progress-item">
+            <div class="progress-text">
+              <span>Growth</span>
+              <strong>69%</strong>
+            </div>
+            <div class="progress-bar"><div style="width: 69%;"></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bottom-grid">
+        <div class="panel table-panel">
+          <div class="panel-head simple">
+            <div>
+              <p class="panel-label">Transactions</p>
+              <h3>Recent Activity</h3>
+            </div>
+          </div>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Date</th>
+                  <th>Status</th>
+                  <th>Amount</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Figma Pro Team</td>
+                  <td>Mar 10, 2026</td>
+                  <td><span class="status success">Paid</span></td>
+                  <td>$320</td>
+                </tr>
+                <tr>
+                  <td>Slack Business</td>
+                  <td>Mar 11, 2026</td>
+                  <td><span class="status pending">Pending</span></td>
+                  <td>$180</td>
+                </tr>
+                <tr>
+                  <td>Adobe Creative</td>
+                  <td>Mar 12, 2026</td>
+                  <td><span class="status success">Paid</span></td>
+                  <td>$540</td>
+                </tr>
+                <tr>
+                  <td>Hosting Renewal</td>
+                  <td>Mar 13, 2026</td>
+                  <td><span class="status failed">Failed</span></td>
+                  <td>$95</td>
+                </tr>
+                <tr>
+                  <td>Client Payment</td>
+                  <td>Mar 13, 2026</td>
+                  <td><span class="status success">Paid</span></td>
+                  <td>$1,250</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="panel insights-panel">
+          <div class="panel-head simple">
+            <div>
+              <p class="panel-label">Insights</p>
+              <h3>Quick Summary</h3>
+            </div>
+          </div>
+
+          <div class="insight-card">
+            <h4>Strong revenue growth</h4>
+            <p>Your weekly performance is above the average target for this quarter.</p>
+          </div>
+
+          <div class="insight-card">
+            <h4>Expense control needed</h4>
+            <p>Operations spending is stable, but marketing is moving faster this week.</p>
+          </div>
+
+          <div class="insight-card">
+            <h4>Client activity improving</h4>
+            <p>Active client count increased by 5.4%, reflecting stronger retention.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
