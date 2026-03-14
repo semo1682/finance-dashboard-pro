@@ -1,18 +1,36 @@
-# Finance Dashboard Pro
+# 💰 Finance Dashboard
 
-Modern finance dashboard built with HTML, CSS, and JavaScript.
+Modern finance dashboard interface for displaying financial statistics and analytics.
 
-## Features
-- Responsive sidebar
-- Search bar
-- Revenue and stats cards
-- Interactive chart filters
-- Budget progress bars
-- Transactions table
-- Insights cards
-- Dark modern UI
+---
 
-## Technologies
-- HTML
-- CSS
+## 🌐 Live Demo
+https://semo1682.github.io/finance-dashboard-pro/
+
+---
+
+## ✨ Features
+
+- Financial overview cards
+- Clean modern UI
+- Responsive layout
+
+---
+
+## 🛠 Technologies
+
+- HTML5
+- CSS3
 - JavaScript
+
+---
+
+## 📸 Preview
+
+![Finance Dashboard](finance-dashboard.jpg)
+
+---
+
+## 👨‍💻 Author
+
+Eslam Mesalam
